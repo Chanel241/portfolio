@@ -1,0 +1,39 @@
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .text-5xl { font-size: 2.5rem; }
+  .text-6xl { font-size: 3rem; }
+}
+
+/* Ensure images fit properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Skill cards */
+#competences .grid > div {
+  transition: all 0.3s ease;
+}
+#competences .grid > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de BILOGHE BIRIMBI Carene - Développeuse Front-End</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-b from-pink-50 to-blue-50">
+  <!-- Navigation -->
+  <nav class="bg-gradient-to-r from-blue-700 to-pink-600 text-white p-4 sticky top-0 z-20 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">BILOGHE BIRIMBI Carene</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#accueil" class="hover:text-pink-200 transition">Accueil</a></li>
+        <li><a href="#apropos" class="hover:text-pink-200 transition">À propos</a></li>
+        <li><a href="#projets" class="hover:text-pink-200 transition">Projets</a></li>
+        <li><a href="#competences" class="hover:text-pink-200 transition">Compétences</a></li>
+        <li><a href="#contact" class="hover:text-pink-200 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section Accueil -->
+  <section id="accueil" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-700 to-pink-600 text-white text-center animate-fade-in">
+    <div class="container mx-auto">
+      <h2 class="text-5xl md:text-6xl font-bold mb-4">Développeuse Front-End Passionnée</h2>
+      <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto">Je suis BILOGHE BIRIMBI Carene, experte en interfaces utilisateur modernes et intuitives. Je transforme des idées en expériences numériques élégantes et performantes.</p>
+      <a href="#projets" class="bg-white text-blue-800 px-6 py-3 rounded-full font-semibold hover:bg-pink-100 transition">Découvrir mes projets</a>
+    </div>
+  </section>
+
+  <!-- Section À propos -->
+  <section id="apropos" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 animate-slide-up">À propos de moi</h2>
+      <p class="text-lg text-black max-w-3xl mx-auto">Développeuse front-end passionnée, je crée des interfaces dynamiques et accessibles avec des technologies modernes comme JavaScript, CSS, et Django. Mon objectif est de concevoir des expériences utilisateur qui allient esthétique, fonctionnalité et accessibilité. Mes qualités humaines incluent la <strong>créativité</strong> pour imaginer des designs uniques, la <strong>collaboration</strong> pour travailler efficacement en équipe, la <strong>résolution de problèmes</strong> pour surmonter les défis techniques, et l’<strong>empathie</strong> pour comprendre les besoins des utilisateurs.</p>
+    </div>
+  </section>
+
+  <!-- Section Projets -->
+  <section id="projets" class="py-20 bg-gray-50">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10 animate-slide-up">Mes Projets</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+          <img src="images/novafac-placeholder.jpg" alt="NovaFac" class="w-full h-48 object-cover rounded-t-lg">
+          <h3 class="text-xl font-semibold mb-2 mt-4">NovaFac</h3>
+          <p class="text-black mb-4">Application web de facturation pour simplifier la gestion des factures. Développée avec Django, HTML, CSS, et JavaScript pour une interface fluide et intuitive.</p>
+          <a href="https://github.com/Chanel241/projet_facture.git" class="text-blue-600 hover:underline">Voir le projet</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+          <img src="images/rawflow.png" alt="RawFlow" class="w-full h-48 object-cover rounded-t-lg">
+          <h3 class="text-xl font-semibold mb-2 mt-4">RawFlow</h3>
+          <p class="text-black mb-4">Application de stockage sécurisé utilisant la blockchain, construite avec JavaScript, HTML, CSS et Django pour une expérience utilisateur moderne.</p>
+          <a href="https://github.com/Chanel241/rawflow.git" class="text-blue-600 hover:underline">Voir le projet</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+          <img src="images/lunaya.png" alt="Lunaya" class="w-full h-48 object-cover rounded-t-lg">
+          <h3 class="text-xl font-semibold mb-2 mt-4">Lunaya</h3>
+          <p class="text-black mb-4">Application web pour le bien-être féminin, connectée aux cycles naturels, avec une interface élégante en JavaScript et CSS.</p>
+          <a href="https://lunaya-production.up.railway.app/" class="text-blue-600 hover:underline">Voir le projet</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Compétences -->
+  <section id="competences" class="py-20 bg-white">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10 animate-slide-up">Mes Compétences</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-pink-50 p-4 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-lg font-semibold text-pink-800">HTML</h3>
+          <p class="text-black">Définition : Langage de balisage pour structurer le contenu web.</p>
+          <p class="text-black">Rôle : Création de la structure de base des pages web, comme les sections, titres, et images.</p>
+        </div>
+        <div class="bg-pink-50 p-4 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-lg font-semibold text-pink-800">CSS</h3>
+          <p class="text-black">Définition : Langage de style pour personnaliser l’apparence des pages web.</p>
+          <p class="text-black">Rôle : Conception de mises en page responsives et esthétiques, gestion des couleurs, polices, et animations.</p>
+        </div>
+        <div class="bg-pink-50 p-4 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-lg font-semibold text-pink-800">JavaScript</h3>
+          <p class="text-black">Définition : Langage de programmation pour rendre les sites interactifs.</p>
+          <p class="text-black">Rôle : Ajout de fonctionnalités dynamiques comme les animations, formulaires interactifs, et gestion des événements.</p>
+        </div>
+        <div class="bg-pink-50 p-4 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-lg font-semibold text-pink-800">Git</h3>
+          <p class="text-black">Définition : Système de contrôle de version pour gérer le code source.</p>
+          <p class="text-black">Rôle : Collaboration sur des projets, suivi des modifications, et déploiement de code sur des plateformes comme GitHub.</p>
+        </div>
+        <div class="bg-pink-50 p-4 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-lg font-semibold text-pink-800">Figma</h3>
+          <p class="text-black">Définition : Outil de conception d’interfaces utilisateur et de prototypage.</p>
+          <p class="text-black">Rôle : Création de maquettes et prototypes pour planifier l’interface utilisateur avant le développement.</p>
+        </div>
+        <div class="bg-pink-50 p-4 rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-lg font-semibold text-pink-800">Responsive Design</h3>
+          <p class="text-black">Définition : Technique pour adapter les interfaces aux différents appareils.</p>
+          <p class="text-black">Rôle : Assurer une expérience utilisateur optimale sur mobiles, tablettes, et ordinateurs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer id="contact" class="bg-gradient-to-r from-blue-700 to-pink-600 text-white py-10 text-center">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Contactez-moi</h2>
+      <p class="mb-4">Envoyez-moi un email à <a href="mailto:chanelbirimbi@gmail.com" class="underline">chanelbirimbi@gmail.com</a></p>
+      <div class="flex justify-center space-x-6 mb-4">
+        <a href="https://github.com/Chanel241" class="text-white hover:text-pink-200"><i class="fab fa-github fa-2x"></i></a>
+        <a href="[Remplacez par votre lien LinkedIn]" class="text-white hover:text-pink-200"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>&copy; 2025 BILOGHE BIRIMBI Carene. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
