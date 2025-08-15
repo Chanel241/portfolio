@@ -29,11 +29,11 @@ img {
   height: auto;
 }
 
-/* Skill cards */
-#competences .grid > div {
+/* Skill and project cards */
+#competences .grid > div, #projets .grid > div {
   transition: all 0.3s ease;
 }
-#competences .grid > div:hover {
+#competences .grid > div:hover, #projets .grid > div:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
